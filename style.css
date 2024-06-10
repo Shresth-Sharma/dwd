@@ -1,0 +1,161 @@
+body{
+    margin:0px;
+    background-color:darkgray;
+    /* display:none; */
+}
+
+#week1{
+    transition:all 0.5s
+}
+#week2{
+    transition:all 0.5s;
+}
+#week3{
+    transition:all 0.5s;
+}
+#week4{
+    transition:all 0.5s;
+}
+#week5{
+    transition:all 0.5s;
+}
+#week6{
+    transition:all 0.5s;
+}
+#week1bt{
+    width:96vw;
+    margin-left:2vw;
+    height:3vh;
+    margin-top:2vw;
+    margin-bottom:1vw;
+    text-align:left;
+}
+#week2bt{
+    width:96vw;
+    margin-left:2vw;
+    height:3vh;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    text-align:left;
+}
+#week3bt{
+    width:96vw;
+    margin-left:2vw;
+    height:3vh;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    text-align:left;
+}
+#week4bt{
+    width:96vw;
+    margin-left:2vw;
+    height:3vh;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    text-align:left;
+}
+#week5bt{
+    width:96vw;
+    margin-left:2vw;
+    height:3vh;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    text-align:left;
+}
+#week6bt{
+    width:96vw;
+    margin-left:2vw;
+    height:3vh;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    text-align:left;
+}
+.slidedown{
+    animation: slideDown 0.5s ease-in-out;
+}
+.slideup{
+    animation: slideUp 0.5s ease-in-out;
+}
+#week1content{
+    display:none;
+    /* background-color:black; */
+    padding-top:2vw;
+}
+#week2content{
+    display:none;
+    /* background-color:black; */
+    padding-top:2vw;
+}
+#week3content{
+    display:none;
+    /* background-color:black; */
+    padding-top:2vw;
+}
+#week4content{
+    display:none;
+    /* background-color:black; */
+    padding-top:2vw;
+}
+#week5content{
+    display:none;
+    /* background-color:black; */
+    padding-top:2vw;
+}
+#week6content{
+    display:none;
+    /* background-color:black; */
+    padding-top:2vw;
+}
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-100vh);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes slideUp {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-100vh);
+    }
+}
+.line{
+    display:flex;
+    justify-content: space-evenly;
+}
+.empty{
+    width:28vw;
+    height:15.75vw;
+}
+.images{
+    width:28vw;
+    height:15.75vw;
+}
+.imgcont{
+    width:28vw;
+    height:15.75vw;
+    padding:0vw;
+    border-style:none;
+    margin-bottom:6vw;
+}
+.imgbt{
+    width:28vw;
+    height:15.75vw;
+    border-style:none;
+    padding:0vw;
+    margin-bottom:2vw;
+}
+.text{
+    color:blue;
+    text-align:center;
+    margin:0vw;
+    margin-top:-2vw;
+    font-size:2.5vw;
+}
