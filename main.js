@@ -1,9 +1,9 @@
-// if(prompt('Enter the password') == '7week'){
-//     document.body.style.display = 'block'
-// }
-// else{
-//     alert('Wrong Password')
-// }
+if(prompt('Enter the password') == '7week'){
+    document.body.style.display = 'block'
+}
+else{
+    alert('Wrong Password')
+}
 document.getElementById('week1bt').addEventListener('click', function(){
     if(document.getElementById('week1content').classList.contains('slideup')){
         document.getElementById('week1content').style.display='block';
